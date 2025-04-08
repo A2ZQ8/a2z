@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>A2Z - Digital Advertising Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Cairo', sans-serif; margin: 0; background: #f8f9fa; color: #333; direction: ltr; }
+    header, footer { background: #E50914; color: white; text-align: center; padding: 20px; }
+    .logo-box { background: white; padding: 20px; border-radius: 20px; display: inline-block; }
+    .logo-box img { width: 240px; height: auto; }
+    main { max-width: 1000px; margin: auto; padding: 40px 20px; }
+    .section { margin-bottom: 60px; text-align: center; }
+    .card { background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); margin-bottom: 30px; }
+    .album { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 15px; }
+    .album a img { width: 150px; border-radius: 10px; object-fit: cover; transition: 0.3s; }
+    .album a img:hover { transform: scale(1.05); }
+    .services { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
+    .services button { background: white; color: #E50914; border: 2px solid #E50914; padding: 10px 20px; border-radius: 10px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+    .services button:hover { background-color: #E50914; color: white; }
+    .btn { padding: 12px 24px; background-color: #E50914; color: white; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; text-decoration: none; }
+    .btn:hover { background-color: #b2070f; }
+    nav { text-align: center; margin-top: 20px; }
+    nav a { margin: 0 10px; color: #fff; font-weight: bold; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-box">
+    <img src="logo.svg" alt="A2Z Logo">
+  </div>
+  <h1>A2Z Digital Advertising Agency</h1>
+  <nav>
+    <a href="#services">Our Services</a> | <a href="#models">Models</a> | <a href="#about">About Us</a> | <a href="index.html">العربية</a>
+  </nav>
+</header>
+
+<main>
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <button>Models</button>
+      <button>Photoshoots</button>
+      <button>Ad Design</button>
+      <button>Social Media Management</button>
+      <button>Website Design & Dev</button>
+    </div>
+    <div style="margin-top: 20px;">
+      <a href="https://www.tap.company/" class="btn" target="_blank">Pay Now</a>
+    </div>
+  </section>
+
+  <section id="models" class="section">
+    <h2>Models</h2>
+    <div class="card">
+      <h3>Lana</h3>
+      <p>Age: 23</p>
+      <p>Height: 168 cm</p>
+      <div class="album">
+        <a href="lana.jpg" data-lightbox="lana" data-title="Lana"><img src="lana.jpg" alt="Lana 1"></a>
+        <a href="lana.jpg" data-lightbox="lana" data-title="Lana"><img src="lana.jpg" alt="Lana 2"></a>
+        <a href="lana.jpg" data-lightbox="lana" data-title="Lana"><img src="lana.jpg" alt="Lana 3"></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      A2Z is a media production and marketing agency specialized in digital content creation, photography, and videography. We deliver integrated solutions for brands including video production (2D & 3D), advertising design, web design, and digital marketing.
+    </p>
+    <p>
+      Our team helps businesses grow through campaign management, creative branding, SEO, and sponsored ads including Google Ads.
+    </p>
+    <div style="margin-top: 20px;">
+      <a href="https://www.instagram.com/a2z.media.kw/" target="_blank" class="btn">Follow us on Instagram</a>
+      <a href="https://g.co/kgs/9HJ3JS" target="_blank" class="btn">Find us on Google</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 A2Z. All rights reserved.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+</body>
+</html>
